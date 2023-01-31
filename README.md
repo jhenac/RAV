@@ -10,7 +10,7 @@ I used flask to replicate the website and everything seems to be working fine. B
 ![image](https://user-images.githubusercontent.com/98466796/215246137-b7858c87-0fda-4557-88b7-279e1656574d.png)
 
 
-My next problem was to change the static data into dynamic values to be stored in a database. I had no prior experience with database management so I watched and read up on sql, installed sql server, installed xampp, made the necessary imports to my flask app using sqlalchemy. Everything was going smoothly until I tried to create tables from the app and encountered ERROR 1045. I spent an ungodly amount of time trying to get rid of the error. After what feels like hours of deepdiving into stackoverflow alternating keywords between flask, flask shell, sql and sql alchemy, I got rid of the error and was able to create the table columns as can be seen below:
+My next problem was to change the static data into dynamic values to be stored in a database. I had no prior experience with database management so I watched and read up on sql, installed sql server, installed xampp, made the necessary imports to my flask app using sqlalchemy. Everything was going smoothly until I tried to create tables from the app and encountered ERROR 1045. I spent an ungodly amount of time trying to get rid of the error. After what feels like hours of deepdiving into stackoverflow alternating keywords between flask, flask shell, sql and sql alchemy keywords, I got rid of the error and was able to create the table columns as can be seen below:
 
 ![image](https://user-images.githubusercontent.com/98466796/215243235-5afa934e-6c73-4e40-bb31-9b2909ba4b94.png)
 
