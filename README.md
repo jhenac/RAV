@@ -1,7 +1,7 @@
 # RAV
 Replicated the rav website and tried to incoporate sql database in the data storage.
 
-##### January 28, 2023: 
+### January 28, 2023: 
 
 This project was created for the technical exam for RAV. The problem was broken down to two parts: 1) to replicate the website 2) to use crud api in querying data
 from a database.
@@ -25,7 +25,7 @@ to solve this as best as I can.
 
 
 
-###### January 31, 2023: 
+### January 31, 2023: 
 I'm coming back to this problem once I'm equipped with the proper tools to solve this. I would like to further detail the problems I encountered when running SQL.
 Problem 1: Port 3306 was already in use so I changed it to port 3307. Link on how to change port: https://youtu.be/DLpyP3Kraao
 
