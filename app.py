@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 app.secret_key = "rav secret"
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Il0v3m00nsql@localhost/rav'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/rav'
 app.config['SQLALCHEMY TRACK MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
