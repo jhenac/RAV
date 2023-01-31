@@ -1,7 +1,7 @@
 # RAV
 Replicated the rav website and tried to incoporate sql database in the data storage.
 
-# January 28, 2023: 
+## January 28, 2023: 
 
 This project was created for the technical exam for RAV. The problem was broken down to two parts: 1) to replicate the website 2) to use crud api in querying data
 from a database.
@@ -25,12 +25,13 @@ to solve this as best as I can.
 
 
 
-# January 31, 2023: 
+## January 31, 2023: 
 I'm coming back to this problem once I'm equipped with the proper tools to solve this. I would like to further detail the problems I encountered when running SQL.
 Problem 1: Port 3306 was already in use so I changed it to port 3307. Link on how to change port: https://youtu.be/DLpyP3Kraao
 
-Problem 2: mysql_exceptions.OperationalError: (1045, "Access denied for user 'mysql://root:@localhost/rav' (using password: NO)") when creating tables using flask shell from my app.py and the biggest source of my headache. I had to insert <skip-grant-tables> in the MySQL configuration and the port set to 3307 as shown below:
+Problem 2: mysql_exceptions.OperationalError: (1045, "Access denied for user 'mysql://root:@localhost/rav' (using password: NO)") when creating tables using flask shell from my app.py and the biggest source of my headache. I had to insert _skip-grant-tables_ in the MySQL configuration and the port set to 3307 as shown below:
 ![image](https://user-images.githubusercontent.com/98466796/215755490-25c5a9fb-490b-469d-8eaf-3e4662b141ae.png)
 ![image](https://user-images.githubusercontent.com/98466796/215755733-aba81b91-3830-4860-8789-398ae97a738f.png)
+
 Still did not get rid of the problem. So the fix was to grant the necessarry privileges for the specified user. Here is a video I created on how to do it:
 https://youtu.be/gXL7ToFvbuc Make sure that the user has the necessary privileges especially in the data and structure part.
